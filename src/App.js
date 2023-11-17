@@ -1,12 +1,10 @@
 import { useState,useEffect  } from "react";
 import About from "./components/About";
 import HeroSection from "./components/HeroSection";
-import HeroSection2 from "./components/HeroSection2";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import SocialLinks from "./components/SocialLinks";
-import Menu from "./components/Menu";
 import ThreeVideos from "./components/ThreeVideos";
 
 function App() {
