@@ -13,10 +13,6 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     },
     {
       id: 2,
-      link: "MENU",
-    },
-    {
-      id: 3,
       link: "İLETİŞİM",
     },
   ];
