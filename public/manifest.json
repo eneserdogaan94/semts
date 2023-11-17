@@ -1,0 +1,8 @@
+{
+  "short_name": "Semt Coffee",
+  "name": "Semt Coffee",
+  "start_url": "www.semtcoffee.com.tr",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
