@@ -27,7 +27,7 @@ const SocialLinks = () => {
         style: "rounded-br-md",
         child: (
           <>
-            Menu <FaReceipt size={30} />
+            Menü <FaReceipt size={30} />
           </>
         ),
         href: menu,
@@ -37,13 +37,13 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[30%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-20 px-1 ml-[-130px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex justify-between items-center w-40 h-20 px-1 ml-[-120px] hover:ml-[0px] hover:rounded-md duration-300 bg-black-500" +
               " " +
               style
             }

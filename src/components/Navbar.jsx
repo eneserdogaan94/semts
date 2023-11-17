@@ -2,7 +2,7 @@ import React from "react";
 import GradientBtn from "./GradientBtn";
 
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Button, Link } from "react-scroll";
 
 const Navbar = ({ isMenuShown, setIsMenuShown }) => {
   const links = [
@@ -16,6 +16,11 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
       link: "İLETİŞİM",
     },
   ];
+  const openNewWindow = () => {
+    const url = 'https://drive.google.com/file/d/1jr71YFJ9dAZQSpb7f9QWF6tYtSvpmwi2/view?usp=sharing';
+
+    window.open(url, '_blank');
+  };
 
   return (
     <>
@@ -38,7 +43,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
                 </li>
               ))}
             </ul>
-            <GradientBtn className="ml-4 capitalize" title="" />
+            <button onClick={openNewWindow} className="ml-4 capitalize bg-gradient-to-r from-thOrange to-thBlue py-2 px-6 text-black rounded-lg duration-300 hover:scale-110">MENÜ </button>
           </div>
 
           <div
