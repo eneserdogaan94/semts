@@ -9,7 +9,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     
     {
       id: 1,
-      link: "Hakkımızda",
+      link: "HAKKIMIZDA",
     },
     {
       id: 2,

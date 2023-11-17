@@ -1,6 +1,6 @@
 import React from 'react';
 
-import video1 from "../assets/semtVideo1.mp4";
+import video1 from "../assets/semtvideo4.mp4";
 import video2 from "../assets/semtvideo2.mp4";
 import video3 from "../assets/semtvideo3.mp4";
 

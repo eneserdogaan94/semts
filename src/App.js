@@ -37,7 +37,6 @@ function App() {
       <Navbar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
       <HeroSection isMenuShown={isMenuShown} />
       <About isMenuShown={isMenuShown}/>
-      <Menu/>
       <ThreeVideos/>
       <Contact />
       <Footer />
