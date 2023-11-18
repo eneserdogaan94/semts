@@ -3,7 +3,6 @@ import PageSection from "./PageSection";
 
 import contactImage from "../assets/SEMTLOGO-1.png";
 import ContactForm from "./ContactForm";
-import Map from "./MapContainer";
 const Contact = () => {
   return (
     <PageSection
@@ -14,7 +13,7 @@ const Contact = () => {
         {
           
         }
-        <div className="w-full lg:w-1/2 h-full p-4 flex items-center flex-col justify-center lg:rotate-6 duration-300 hover:rotate-0">
+        <div className="w-full lg:w-1/2 h-full p-4 flex items-center">
           <img
             src={contactImage}
             alt="contact us"
@@ -22,7 +21,6 @@ const Contact = () => {
           />
 
           <p className=" py-12 max-w-md">
-            Telefon Numarası:0534 565 27 87
           </p>
 
           <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
