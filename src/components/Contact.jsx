@@ -3,7 +3,7 @@ import PageSection from "./PageSection";
 
 import contactImage from "../assets/SEMTLOGO-1.png";
 import ContactForm from "./ContactForm";
-
+import Map from "./MapContainer";
 const Contact = () => {
   return (
     <PageSection
@@ -14,8 +14,7 @@ const Contact = () => {
         {
           
         }
-
-        <div className="w-full lg:w-1/2 h-full p-4 flex items-center flex-col justify-center">
+        <div className="w-full lg:w-1/2 h-full p-4 flex items-center flex-col justify-center lg:rotate-6 duration-300 hover:rotate-0">
           <img
             src={contactImage}
             alt="contact us"

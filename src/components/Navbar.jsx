@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import GradientBtn from "./GradientBtn";
 
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -21,12 +21,23 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
 
     window.open(url, '_blank');
   };
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIsVisible((prev) => !prev);
+    }, 500); // Yanıp sönme süresi (milisaniye cinsinden)
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
 
   return (
     <>
       <div className="absolute w-full h-46 bg-black text-white z-20">
         <div className="flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full">
-          <div>
+        <div style={{ opacity: isVisible ? 1 : 0 }}>
             <h1 className="text-white-800 text-3xl ml-2">Semt Coffee</h1>
           </div>
 
