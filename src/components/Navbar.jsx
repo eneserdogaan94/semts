@@ -73,7 +73,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
               </Link>
             </li>
           ))}
-          <GradientBtn className="mt-10 capitalize" title="" />
+          <button onClick={openNewWindow} className="ml-4 capitalize bg-gradient-to-r from-thOrange to-thBlue py-2 px-6 text-black rounded-lg duration-300 hover:scale-110">MENÜ </button>
         </ul>
       </div>
     </>
