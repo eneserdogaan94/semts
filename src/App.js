@@ -33,8 +33,8 @@ function App() {
   return (
     <div>
       <Navbar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
-      <HeroSection isMenuShown={isMenuShown} />
-      <About isMenuShown={isMenuShown}/>
+      <HeroSection isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
+      <About/>
       <ThreeVideos/>
       <Contact />
       <Footer />

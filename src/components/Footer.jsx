@@ -32,7 +32,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="my-12 text-center text-sm text-amber-800">
-          © eneserdogan
+          © eneserdogan 👨‍💻
         </p>
       </div>
     </div>
